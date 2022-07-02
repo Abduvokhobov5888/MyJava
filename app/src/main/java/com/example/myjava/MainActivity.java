@@ -43,16 +43,29 @@ public class MainActivity extends AppCompatActivity {
         titles.add("Two");
         titles.add("Three");
         titles.add("Four");
+        titles.add("Five");
+        titles.add("Six");
+        titles.add("Seven");
+        titles.add("Eight");
+        titles.add("Nine");
+        titles.add("Ten");
 
         images.add(R.drawable.one);
         images.add(R.drawable.two);
         images.add(R.drawable.three);
         images.add(R.drawable.four);
+        images.add(R.drawable.five);
+        images.add(R.drawable.six);
+        images.add(R.drawable.seven);
+        images.add(R.drawable.eight);
+        images.add(R.drawable.nine);
+        images.add(R.drawable.ten);
 
 
         Adapter adapter = new Adapter(this, titles, images);
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false);
-        dataList.setLayoutManager(gridLayoutManager);
+        dataList.setLayoutManager(new GridLayoutManager(this,2));
+        //GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false);
+        //dataList.setLayoutManager(gridLayoutManager);
         dataList.setAdapter(adapter);
     }
 }
