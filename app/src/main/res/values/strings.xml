@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">MyJava</string>
+
+    <string-array name="raqam">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eigth</item>
+        <item>Nine</item>
+        <item>Ten</item>
+    </string-array>
+
+    <string-array name="descripton">
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+        <item>Bu raqam</item>
+    </string-array>
 </resources>
